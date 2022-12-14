@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+.hero{
+  height: 100vh;
+  width: 100%;
+  background-image: url('image2.jpg');
+  background-size: cover;
+  background-position: center;
+}
+h1{
+  margin: 20px 0px 20px 0px;
+  font-size: 75px;
+  color: white;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 45px 0px 15px 15px;
+}
+.logo{
+  color: white;
+  font-size: 35px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+span{
+  color: yellowgreen;
+}
+ul{
+  list-style-type: none;
+  display: flex;
+}
+nav ul li a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+  padding: 10px 25px;
+}
+nav ul li a:hover{
+  color: yellowgreen;
+}
+.btn{
+  background-color: yellowgreen;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 30px;
+}
+
+/* content section */
+.content{
+  margin: 70px 70px;
+  color: white;
+}
+.theh3{
+  color: yellowgreen;
+  letter-spacing: 2px;
+  font-size: 30px;
+}
+form{
+  width: 380px;
+  position: relative;
+}
+form input:first-child{
+  width: 61%;
+  padding: 14px 130px 14px 15px;
+  border: 2px solid yellowgreen;
+  border-radius: 30px;
+  outline: none;
+}
+form input:last-child{
+  background-color: yellowgreen;
+  padding: 10px 30px;
+  border-radius: 30px;
+  position: absolute;
+  border: none;
+  top: 6px;
+  cursor: pointer;
+  right: 6px;
+}
+
+/* content section ends */
+
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+  }
+  .main img{
+    height: 400px;
+    width: 400px;
+  }
+  .about-text{
+    width: 550px;
+  }
+  .main{
+    width: 1150px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .about-text h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+  }
+  .about-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+  }
+  .about-text p{
+    color: white;
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-bottom: 45px;
+  }
+  .about-text a{
+    background-color: yellowgreen;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+  }
+  .our{
+    font-size: 30px;
+    color: white;
+    background-color: #191919;
+    text-align: center;
+  }
+  .services{
+    width: 100%;
+    padding: 100px 3px;
+    background-color: #191919;
+  }
+  .main2{
+    width: 1150px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+  }
+  .our-services h5{
+    color: white;
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+  }
+  .our-services p{
+    color: white;
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-bottom: 45px;
+    
+  }
+  .our-services a{
+    background-color: yellowgreen;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 12px 30px;
+    border-radius: 30px;
+  }
+  .back-end h5{
+    color: white;
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+  }
+  .back-end p{
+    color: white;
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-bottom: 45px;
+  }
+  .back-end a{
+    background-color: yellowgreen;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 12px 30px;
+    border-radius: 30px;
+  }
+  .cloud-eng h5{
+    color: white;
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+  }
+  .cloud-eng p{
+    color: white;
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-bottom: 45px;
+  }
+  .cloud-eng a{
+    background-color: yellowgreen;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 12px 30px;
+    border-radius: 30px;
+  }
+  .hire {
+    background-color: #191919;
+    color: white;
+    text-align: center;
+  }
+  .hire-me{
+    background-color: #191919;
+    
+  }
+  .hire-me h5{
+    color: white;
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+  }
+  .hire-me a{
+    background-color: yellowgreen;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 12px 30px;
+    border-radius: 30px;
+  }
+
+  /* media queries */
+  @media (max-width: 992px) {
+    nav{
+      display: flex;
+      flex-direction: column;
+    }
+
+    ul{
+      list-style-type: none;
+      display: flex;
+      flex-direction: column;
+    }
+
+    li{
+      padding: 10px 2px;
+    }
+
+    .content{
+      margin: 12px 27px;
+      color: white;
+    }
+
+    h1{
+      font-size: 30px;
+    }
+    .theh3{
+      color: yellowgreen;
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+    form {
+      width: 200px;
+      position: relative
+    }
+  }
+  
